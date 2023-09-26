@@ -22,7 +22,7 @@ export class ExampleApp extends gfx.GfxApp
         this.scene.add(this.raindrop);
         this.raindrop.material.color = gfx.Color.BLUE;
         
-        /*
+        
         const hex_geom = new gfx.Line2(gfx.LineMode2.LINE_STRIP);
         const hex_verts: number[] = []; // x1,y1, x2,y2, x3, y4
         for (let i=0; i<=6; i++) {
@@ -32,9 +32,9 @@ export class ExampleApp extends gfx.GfxApp
         }
         hex_geom.setVertices(hex_verts);
         this.scene.add(hex_geom);
-        */
+        
 
-        /*
+        
         const mesh = new gfx.Mesh2();
         mesh.material.drawMode = this.renderer.gl.TRIANGLES;
         const vertices: gfx.Vector2[] = [];
@@ -46,7 +46,7 @@ export class ExampleApp extends gfx.GfxApp
         vertices.push(new gfx.Vector2(.70, .75));
         mesh.setVertices(vertices);
         this.scene.add(mesh);
-        */
+        
 
         const circle = new gfx.Mesh2();
         circle.material.drawMode = this.renderer.gl.TRIANGLE_FAN;
