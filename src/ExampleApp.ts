@@ -22,7 +22,7 @@ export class ExampleApp extends gfx.GfxApp
         this.scene.add(this.raindrop);
         this.raindrop.material.color = gfx.Color.BLUE;
         
-        
+        /*
         const hex_geom = new gfx.Line2(gfx.LineMode2.LINE_STRIP);
         const hex_verts: number[] = []; // x1,y1, x2,y2, x3, y4
         for (let i=0; i<=6; i++) {
@@ -63,6 +63,7 @@ export class ExampleApp extends gfx.GfxApp
         }
         circle.setVertices(verts);
         this.scene.add(circle);
+        */
 
 
     }
